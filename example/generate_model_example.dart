@@ -12,14 +12,15 @@ String _scriptPath() {
     script = script.substring(idx + 5);
     print('there');
   }
-  return script.substring(1);
+  return script; //.substring(1);
 }
 
 main() {
-  final classGenerator = new ModelGenerator('Sample');
+  final classGenerator = new ModelGenerator('SofpModel');
   final currentDirectory = dirname(_scriptPath());
-  final filePath = normalize(join(currentDirectory, 'sample.json'));
+  final filePath = normalize(join(currentDirectory, 'sofp.json'));
   final jsonRawData = new File(filePath).readAsStringSync();
-  DartCode dartCode = classGenerator.generateDartClasses(jsonRawData);
+  DartCode dartCode =
+  classGenerator.generateDartClasses(jsonRawData);
   print(dartCode.code);
 }

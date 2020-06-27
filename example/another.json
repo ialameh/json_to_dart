@@ -1,0 +1,60 @@
+{
+    "SofpPersonalDetails": [
+        {
+            "uuid": {
+                "uuidStructure": [
+                    "String",
+                    "100",
+                    "ID"
+                ]
+            },
+            "name": {
+                "nameStructure": [
+                    "String",
+                    "100",
+                    "Full Name"
+                ]
+            },
+            "address": {
+                "addressStructure": [
+                    "String",
+                    "150",
+                    "Address"
+                ]
+            },
+            "phone": {
+                "phoneStructure": [
+                    "String",
+                    "12",
+                    "Phone Number"
+                ]
+            },
+            "email": {
+                "emailStructure": [
+                    "Email",
+                    "Your Email"
+                ]
+            },
+            "dependants": {
+                "dependantsStructure": [
+                    "String",
+                    "100",
+                    "Dependants"
+                ]
+            },
+            "dateOfBirth": {
+                "dateOfBirthStructure": [
+                    "Date",
+                    "Date of Birth"
+                ]
+            },
+            "currentEmployer": {
+                "currentEmployerStructure": [
+                    "String",
+                    "150",
+                    "Current Employer"
+                ]
+            }
+        }
+    ]
+}

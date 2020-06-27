@@ -1,0 +1,30 @@
+{
+  "Sofp": [
+    {
+      "title": {
+        "value": "",
+        "titleStructure": {
+          "type": "",
+          "size": "",
+          "header": ""
+        }
+      },
+      "description": {
+        "value": "",
+        "descriptionStructure": {
+          "type": "",
+          "size": "",
+          "header": ""
+        }
+      },
+      "created": {
+        "value": "",
+        "createdStructure": {
+          "type": "",
+          "size": "",
+          "header": ""
+        }
+      }
+    }
+  ]
+}
