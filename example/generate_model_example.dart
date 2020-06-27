@@ -6,11 +6,13 @@ String _scriptPath() {
   var script = Platform.script.toString();
   if (script.startsWith("file://")) {
     script = script.substring(7);
+    print(script);
   } else {
     final idx = script.indexOf("file:/");
     script = script.substring(idx + 5);
+    print('there');
   }
-  return script;
+  return script.substring(1);
 }
 
 main() {
